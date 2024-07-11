@@ -5,7 +5,6 @@ import { InjectModel } from '@nestjs/mongoose';
 import { User } from './entities/user.entity';
 import mongoose, { Model, Mongoose } from 'mongoose';
 import { ExpensesService } from 'src/expenses/expenses.service';
-import { findIndex } from 'rxjs';
 
 @Injectable()
 export class UsersService {
